@@ -5,4 +5,5 @@
 * [OOP](oop.md)
 * [Closures and Event Listeners](closures_and_event_listeners.md)
 * [Event Loop](event_loop.md)
+* In Javascript, Everything Is (or acts like) An Object
 
