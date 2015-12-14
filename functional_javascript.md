@@ -4,6 +4,7 @@
 * http://www.sitepoint.com/introduction-functional-javascript/
 * http://scott.sauyet.com/Javascript/Talk/FunctionalProgramming/#slide-0
 * https://www.youtube.com/watch?v=L7b7AW14rYE (slides)
+* https://www.youtube.com/playlist?list=PL0zVEGEvSaeEd9hlmCXrk5yUyqUag-n84
 
 ## Function purity
 * **Deterministic** - for every input it has to produce the same output. Mathces one to one or many to one, but not many to many.
@@ -36,3 +37,6 @@ function add(x) {
 
 add(1)(2);
 ```
+
+## Higher-order functions
+Functions that take other function as an argument
