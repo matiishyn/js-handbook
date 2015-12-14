@@ -64,6 +64,14 @@ function myFn(par1) {
 myFn.length; // 1 - function's arity - number of params that it's expecting
 ```
 
+```js
+var fn = function() {
+    console.log(arguments.constructor.name); // Object
+    var argsArr = Array.prototype.slice.call(arguments);
+    console.log(argsArr.constructor.name); // Array
+}
+```
+
 ## Objects
 ### Detecting properties
 ```javascript
@@ -245,6 +253,18 @@ Child.prototype.constructor = Child;
 var c = new Child();
 // Child {c: "child", p: "parent", constructor: function, parentMethod: function}
 // c has own values from Parent
+```
+
+
+### `getPrototypeOf`
+
+```js
+var personPrototype = {name: ''};
+var ben = Object.create(personPrototype); // inherited obj
+
+Object.getPrototypeOf(ben); // personPrototype
+personPrototype.isPrototypeOf(ben); // true
+
 ```
 
 ## Resources
