@@ -1,4 +1,4 @@
 # Summary
 
-* Design patterns
+* [Design patterns](design_patterns.md)
 
