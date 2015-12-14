@@ -1,4 +1,8 @@
 ##Closures and Event Listeners
+
+### Resource:
+* https://www.udacity.com/course/javascript-design-patterns--ud989
+
 ###The problem:
 
 Let's say we're making an element for every item in an array. When each is clicked, it should alert its number. The simple approach would be to use a for loop to iterate over the list elements, and when the click happens, alert the value of `num` as we iterate over each item of the array. Here's an example:
