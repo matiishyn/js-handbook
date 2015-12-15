@@ -269,6 +269,7 @@ personPrototype.isPrototypeOf(ben); // true
 
 ## Classical vs Prototypal Inheritance
 
+
 ## Resources
 1. http://www.objectplayground.com/ (https://www.youtube.com/watch?v=PMfcsYzj-9M)
 2. Principles of Object-Oriented JavaScript by Nicholas C. Zakas (http://www.nostarch.com/oojs)
