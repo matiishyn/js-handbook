@@ -268,6 +268,7 @@ personPrototype.isPrototypeOf(ben); // true
 ```
 
 ## Classical vs Prototypal Inheritance
+![classical_vs_prototypal.png](oop/classical_vs_prototypal.png)
 
 
 ## Resources
