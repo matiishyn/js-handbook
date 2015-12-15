@@ -4,6 +4,7 @@
 
 ## Resources:
 * Addy Osmani's [book](http://addyosmani.com/resources/essentialjsdesignpatterns/book) in [GitHub](https://github.com/addyosmani/essential-js-design-patterns)
+* http://www.leanpanda.com/blog/2015/06/28/amd-requirejs-commonjs-browserify/
 
 
 ## Anti-Pattern
