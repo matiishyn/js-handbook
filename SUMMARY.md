@@ -8,4 +8,5 @@
 * [In Javascript, Everything Is (or acts like) An Object](in_javascript,_everything_is_or_acts_like_an_objec.md)
 * [Functional JavaScript](functional_javascript.md)
 * [Immutable JS](immutable_js.md)
+* Data Visualization and D3.js
 
