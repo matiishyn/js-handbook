@@ -29,6 +29,8 @@ Higher-order functions enable **currying**, a technique in which a function is a
 in JS functions can be in variable, obj value ...
 
 ## Pure Functions
+A pure function is a function that, given the same input, will always return the same output and does not have any observable side effect.
+
 for every input it has to produce the same output. Mathces one to one or many to one, but not many to many.
 * Does not depend on external state
 * Does not depend in IO
@@ -47,6 +49,18 @@ function add(x) {
 add(1)(2);
 ```
 
+```js
+var add = function(x) {
+  return function(y) {
+    return x + y;
+  };
+};
+
+var increment = add(1);
+increment(2);
+// 3
+```
+
 
 
 ## Compositions
@@ -56,6 +70,7 @@ a() b() c()
 //    Composition
 a(b(c(x))) === compose(a,b,c)(x)
 ```
+
 
 
 
