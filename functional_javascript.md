@@ -71,6 +71,23 @@ a() b() c()
 a(b(c(x))) === compose(a,b,c)(x)
 ```
 
+The composition of two functions returns a new function. This makes perfect sense: composing two units of some type (in this case function) should yield a new unit of that very type.
+
+
+```js
+var compose = function(f,g) {
+  return function(x) {
+    return f(g(x));
+  };
+};
+
+var toUpperCase = function(x) { return x.toUpperCase(); };
+var exclaim = function(x) { return x + '!'; };
+var shout = compose(exclaim, toUpperCase);
+
+shout("send in the clowns");
+//=> "SEND IN THE CLOWNS!"
+```
 
 
 
