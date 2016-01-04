@@ -31,6 +31,18 @@ in JS functions can be in variable, obj value ...
 ## Pure Functions
 
 ## Currying
+Taking a function that takes multiple arguments and transforming it to a chain of functions that accept a single argument
+```js
+function add(x) {
+    return function(y) {
+        return x + y;
+    }
+}
+
+add(1)(2);
+```
+
+
 
 ## Compositions
 Functions which consume the return value of the function that follows. It's when we string together functions in the linear sequence, the first fn goes to the input of the second function and so on.
@@ -47,21 +59,7 @@ a(b(c(x))) === compose(a,b,c)(x)
 * Does not depend in IO
 * Does not cause side effects
 
-## Functions as building blocks
 
-* **Composition** - 
-
-## Currying
-Taking a function that takes multiple arguments and transforming it to a chain of functions that accept a single argument
-```js
-function add(x) {
-    return function(y) {
-        return x + y;
-    }
-}
-
-add(1)(2);
-```
 
 ## Higher-order functions
 Functions that take other function as an argument.
