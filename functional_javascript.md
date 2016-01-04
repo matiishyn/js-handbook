@@ -29,6 +29,11 @@ Higher-order functions enable **currying**, a technique in which a function is a
 in JS functions can be in variable, obj value ...
 
 ## Pure Functions
+for every input it has to produce the same output. Mathces one to one or many to one, but not many to many.
+* Does not depend on external state
+* Does not depend in IO
+* Does not cause side effects
+* 
 
 ## Currying
 Taking a function that takes multiple arguments and transforming it to a chain of functions that accept a single argument
@@ -52,12 +57,6 @@ a() b() c()
 a(b(c(x))) === compose(a,b,c)(x)
 ```
 
-
-## Function purity
-* **Deterministic** - for every input it has to produce the same output. Mathces one to one or many to one, but not many to many.
-* Does not depend on external state
-* Does not depend in IO
-* Does not cause side effects
 
 
 
