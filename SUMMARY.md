@@ -10,5 +10,5 @@
 * [Immutable JS](immutable_js.md)
 * [Data Visualization and D3.js](data_visualization_and_d3js.md)
 * [Interesting Interview Questions](interesting_interview_questions.md)
-* Imperative vs Declarative
+* [Imperative vs Declarative](imperative_vs_declarative.md)
 
