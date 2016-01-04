@@ -3,6 +3,7 @@
 ## Resources:
 * http://latentflip.com/imperative-vs-declarative/
 * https://www.netguru.co/blog/imperative-vs-declarative
+* http://codenugget.co/2015/03/05/declarative-vs-imperative-programming-web.html
 * 
 
 ## Imperative programming
