@@ -11,5 +11,5 @@
 * [Interesting Interview Questions](interesting_interview_questions.md)
 * [Imperative vs Declarative](imperative_vs_declarative.md)
 * [Monkey patch](monkey_patch.md)
-* Scrum, Kanban, Agile
+* [Scrum, Kanban, Agile](scrum,_kanban,_agile.md)
 
