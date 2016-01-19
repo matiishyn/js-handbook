@@ -5,5 +5,5 @@
 * https://www.dashingd3js.com/table-of-contents
 * https://square.github.io/intro-to-d3/
 * https://www.youtube.com/watch?v=8jvoTV54nXw - good video, [examples](http://curran.github.io/screencasts/introToD3/examples/viewer/#/)
-* continuing [here](https://www.youtube.com/watch?v=6Xynj_pBybc)
+    * continuing [here](https://www.youtube.com/watch?v=6Xynj_pBybc)
 * https://www.youtube.com/watch?v=DTjLcLytNt8
