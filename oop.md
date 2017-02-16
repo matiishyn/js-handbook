@@ -1,3 +1,6 @@
+# MOVED TO front-end-handbook
+
+
 # Short guide about principles of OOP in JS
 
 ## Types
